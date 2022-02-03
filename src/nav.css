@@ -9,7 +9,7 @@
   background: #333;
 }
 
-.navg .first-nav a{
+.navg .f-nav a{
   position: relative;
   left: 50%;
   top: 0.957rem;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.navg .second-nav a{
+.navg .s-nav a{
   position: relative;
   left: -10%;
   top: 0.9375rem;
