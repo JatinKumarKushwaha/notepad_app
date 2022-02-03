@@ -1,31 +1,73 @@
 
+
 footer{
     box-sizing: border-box;
     font-family: 'Open Sans',sans-serif;
     
-    font-size: 1rem;
+    font-size: 16px;
+    background-color: #8d99ae;
+    color: white; 
+ 
  } 
-
 .first img{
-    width: 3.125rem;
-    height: 3.125rem;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
 }
 
+.one{
+    margin-left: 10px;
+}
 
 .content{
     display: flex;
-    flex-wrap: wrap;
-
-
-    /* justify-content: space-evenly; */
-
-    }
-.linked{
-    height: 1.25rem;
+    flex-wrap:wrap;
+    flex-direction: row;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top:  10px ;
+   font-weight: 600; 
+   letter-spacing: 2px;
+   padding-bottom: 30px;
 }
 
+
 #feedback{
-    /* padding: 20px; */
-    width: 31.25rem;
-    height: 6.25rem;
+    font-size: 20px;
+    background-color: #8d99ae;
+   border: 1px solid black;
+    width: 500px;
+    height: 100px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.mainH{
+    font-size:32px ;
+    margin-left: 30px;
+}
+.header{
+    padding-left: 30px;
+     font-size: 28px;
+  
+}
+.Git{
+    margin-right:100px ;
+    margin-left:100px ;
+}
+a{
+    color: white;
+    transition: background-color 200ms ease-in-out;
+}
+a:hover,a:focus{
+    color:#343a40;
+}
+@media(max-width:780px){
+    .Git{
+    flex-direction: column;
+    margin:0;
+}
+#feedback{
+    width:250px ;
+}
 }
