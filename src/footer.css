@@ -4,19 +4,19 @@ footer{
     box-sizing: border-box;
     font-family: 'Open Sans',sans-serif;
     
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #8d99ae;
     color: white; 
  
  } 
 .first img{
-    width: 50px;
-    height: 50px;
-    margin-left: 30px;
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-left: 1.875rem;
 }
 
 .one{
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 .content{
@@ -25,35 +25,35 @@ footer{
     flex-direction: row;
     text-transform: uppercase;
     text-align: left;
-    padding-top:  10px ;
+    padding-top:  0.625rem ;
    font-weight: 600; 
-   letter-spacing: 2px;
-   padding-bottom: 30px;
+   letter-spacing: 0.125rem;
+   padding-bottom: 1.875rem;
 }
 
 
 #feedback{
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #8d99ae;
-   border: 1px solid black;
-    width: 500px;
-    height: 100px;
+   border: 0.0625rem solid black;
+    width: 31.25rem;
+    height: 6.25rem;
     color: white;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-left: 0.625rem;
+    margin-bottom: 0.625rem;
 }
 .mainH{
-    font-size:32px ;
-    margin-left: 30px;
+    font-size:2rem ;
+    margin-left: 1.875rem;
 }
 .header{
-    padding-left: 30px;
-     font-size: 28px;
+    padding-left: 1.875rem;
+     font-size: 1.75rem;
   
 }
 .Git{
-    margin-right:100px ;
-    margin-left:100px ;
+    margin-right:6.25rem;
+    margin-left:6.25rem;
 }
 a{
     color: white;
@@ -62,12 +62,12 @@ a{
 a:hover,a:focus{
     color:#343a40;
 }
-@media(max-width:780px){
+@media(max-width:48.75rem){
     .Git{
     flex-direction: column;
     margin:0;
 }
 #feedback{
-    width:250px ;
+    width:15.625rem;
 }
 }
