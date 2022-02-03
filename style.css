@@ -3,8 +3,48 @@
 }
 
 body {
+  background: #fff;
+  font-family: sans;
 	margin: 0;
 	padding: 0;
+}
+
+.navg{
+  display: flex;
+  justify-content: space-between; 
+  height: 50px;
+  overflow: hidden;
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: #03e9f4;
+  background: #333;
+}
+
+.navg .f-nav a{
+  position: relative;
+  left: 50%;
+  top: 15px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.navg .s-nav a{
+  position: relative;
+  left: -10%;
+  top: 15px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.navg a:hover{
+  background: #04AA6D;
+  color: white;
+}
+
+.navg a:active{
+  background: #04AA6D;
+  color: white;
 }
 
 #main-content {
