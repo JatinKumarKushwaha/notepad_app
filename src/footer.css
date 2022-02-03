@@ -1,1 +1,31 @@
 
+footer{
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    
+    font-size: 1rem;
+ } 
+
+.first img{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+
+    /* justify-content: space-evenly; */
+
+    }
+.linked{
+    height: 1.25rem;
+}
+
+#feedback{
+    /* padding: 20px; */
+    width: 31.25rem;
+    height: 6.25rem;
+}
