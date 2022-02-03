@@ -1,5 +1,6 @@
 @import url(footer.css);
 @import url(nav.css);
+@import url(content.css);
 
 :root {
 	font-size: 16px;
