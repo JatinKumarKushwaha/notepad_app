@@ -1,10 +1,10 @@
 .navg{
   display: flex;
   justify-content: space-between; 
-  height: 50px;
+  height: 3.125rem;
   overflow: hidden;
-  font-size: 15px;
-  letter-spacing: 4px;
+  font-size: 0.9357rem;
+  letter-spacing: 0.25rem;
   color: #03e9f4;
   background: #333;
 }
@@ -12,7 +12,7 @@
 .navg .first-nav a{
   position: relative;
   left: 50%;
-  top: 15px;
+  top: 0.957rem;
   text-decoration: none;
   color: #fff;
   text-align: center;
@@ -21,7 +21,7 @@
 .navg .second-nav a{
   position: relative;
   left: -10%;
-  top: 15px;
+  top: 0.9375rem;
   text-decoration: none;
   color: #fff;
   text-align: center;
@@ -35,3 +35,10 @@
   background: #04AA6D;
   color: white;
 }
+
+.image-wrapper{
+  padding: 2rem;
+  border: #0ff0ff0;
+  width: 3.125rem;
+  height: 3.125rem;
+} 
