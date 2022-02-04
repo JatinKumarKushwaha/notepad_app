@@ -7,7 +7,8 @@ footer{
     color: white; 
  
  } 
-.first img{
+
+ .first img{
     width: 3.125rem;
     height: 3.125rem;
     margin-left: 1.875rem;
@@ -40,52 +41,60 @@ footer{
     margin-left: 0.625rem;
     margin-bottom: 0.625rem;
 }
+
 .mainH{
     font-size:2rem ;
     margin-left: 1.875rem;
 }
+
 .header{
     padding-left: 1.875rem;
      font-size: 1.75rem;
   
 }
+
 .Git{
     margin-right:6.25rem;
     margin-left:6.25rem;
 }
+
 a{
     color: white;
     transition: background-color 200ms ease-in-out;
 }
+
 a:hover,a:focus{
     color:#343a40;
 }
+
 @media(max-width:48.75rem){
     .Git{
     flex-direction: column;
     margin:0;
-}
-#feedback{
-    width:15.625rem;
-}
-.header{
-    padding-left: 1.875rem;
-     font-size: 1.75rem;
-  
-}
-.Git{
-    margin-right:6.25rem;
-    margin-left:6.25rem;
-}
-a{
-    color: white;
-    transition: background-color 200ms ease-in-out;
-}
-a:hover,a:focus{
-    color:#343a40;
-}
-@media(max-width:48.75rem){
+    }
+    #feedback{
+        width:15.625rem;
+    }
+    .header{
+        padding-left: 1.875rem;
+        font-size: 1.75rem;
+    
+    }
     .Git{
-    flex-direction: column;
-    margin:0;
+        margin-right:6.25rem;
+        margin-left:6.25rem;
+    }
+    a{
+        color: white;
+        transition: background-color 200ms ease-in-out;
+    }
+    a:hover,a:focus{
+        color:#343a40;
+    }
+    @media(max-width:48.75rem){
+        .Git{
+        flex-direction: column;
+        margin:0;
+        }
+    }
 }
