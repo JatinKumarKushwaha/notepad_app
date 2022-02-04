@@ -1,0 +1,91 @@
+footer{
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    
+    font-size: 1rem;
+    background-color: #8d99ae;
+    color: white; 
+ 
+ } 
+.first img{
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-left: 1.875rem;
+}
+
+.one{
+    margin-left: 0.625rem;
+}
+
+.content{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top:  0.625rem ;
+   font-weight: 600; 
+   letter-spacing: 0.125rem;
+   padding-bottom: 1.875rem;
+}
+
+
+#feedback{
+    font-size: 1.25rem;
+    background-color: #8d99ae;
+    border: 0.0625rem solid black;
+    width: 31.25rem;
+    height: 6.25rem;
+    color: white;
+    margin-left: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+.mainH{
+    font-size:2rem ;
+    margin-left: 1.875rem;
+}
+.header{
+    padding-left: 1.875rem;
+     font-size: 1.75rem;
+  
+}
+.Git{
+    margin-right:6.25rem;
+    margin-left:6.25rem;
+}
+a{
+    color: white;
+    transition: background-color 200ms ease-in-out;
+}
+a:hover,a:focus{
+    color:#343a40;
+}
+@media(max-width:48.75rem){
+    .Git{
+    flex-direction: column;
+    margin:0;
+}
+#feedback{
+    width:15.625rem;
+}
+.header{
+    padding-left: 1.875rem;
+     font-size: 1.75rem;
+  
+}
+.Git{
+    margin-right:6.25rem;
+    margin-left:6.25rem;
+}
+a{
+    color: white;
+    transition: background-color 200ms ease-in-out;
+}
+a:hover,a:focus{
+    color:#343a40;
+}
+@media(max-width:48.75rem){
+    .Git{
+    flex-direction: column;
+    margin:0;
+}

@@ -1,0 +1,43 @@
+.navg{
+  display: flex;
+  justify-content: space-between; 
+  height: 3.125rem;
+  overflow: hidden;
+  font-size: 0.9357rem;
+  letter-spacing: 0.25rem;
+  color: #03e9f4;
+  background: #333;
+}
+
+.navg .f-nav a{
+  position: relative;
+  left: 50%;
+  top: 0.957rem;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.navg .s-nav a{
+  position: relative;
+  left: -10%;
+  top: 0.9375rem;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.navg a:hover{
+  background: #04AA6D;
+  color: white;
+}
+
+.navg a:active{
+  background: #04AA6D;
+  color: white;
+}
+
+.logo-image{
+  padding: 2rem;
+  width: 3.125rem;
+  height: 3.125rem;
+} 
