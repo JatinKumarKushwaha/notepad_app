@@ -1,0 +1,77 @@
+@import url(../../style.css);
+@import url(../../footer.css);
+@import url(../../nav.css);
+@import url(../../button.css);
+
+#notepad-container {
+	display: flex;
+	height: 50rem;
+	/* background: linear-gradient(#0b1364 ,#64cce6); */
+	background: #ffffff;
+	overflow: hidden;
+}
+
+#notepad-container > div {
+	height: 46rem;
+	width: 46rem;
+	margin: 2rem;
+}
+
+#input-box {
+	/* border: 2px solid #470f0b; */
+	border-radius: 2rem;
+}
+
+#text-box {
+	padding: 2rem;
+	margin: 4rem;
+	height: 28rem;
+	width: 30.5rem;
+	border: 2px solid #470f0b;
+	border-radius: 2rem;
+	resize: none;
+}
+
+#text-box:hover, #text-box:active {
+	box-shadow:20px 20px 10px grey;
+	border: 2px solid #470f0b;
+	outline: none;
+}
+
+.button-container {
+	margin-left: 5.4rem;
+}
+
+.button-container > button {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+#notes-container {
+	display: flex;
+	border: 2px solid #470f0b;
+	border-radius: 2rem;
+	flex-wrap: wrap;
+	overflow: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+#notes-container::-webkit-scrollbar {
+	display: none;
+}
+
+#note {
+	padding: 0.45rem;
+	margin: 1rem;
+	border-radius: 2rem;
+	border: 2px solid #b4d9f8;
+	background-color: #b4d9f8;
+}
+
+@media(max-width:48.75rem) {
+	#notepad-container {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+}
