@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Notepad_App</title>
+	<link rel="stylesheet" href="src/notes_app.css">
+</head>
+<body>
+	<script>0</script>
+	<div>
+		<nav class="navg">
+			<div><img src="../notepad-image.png" alt="notepad-logo" class="logo-image"></div>
+			<div class="f-nav">
+				<a href="#">Home</a> 
+				<a href="#">About-Us</a> 
+				<a href="#">Create-Notes</a> 
+			</div>
+			<div class="s-nav">
+				<a href="#">Login</a> 
+				<a href="#">Create-Id</a>
+			</div>
+		</nav>
+	</div>
+	<div id="notepad-container">
+		<div id="input-box">
+			<textarea placeholder="Type some text here" name="notes-input" id="text-box"></textarea>
+			<div class="button-container">
+				<button class="button" id="create-note-button" onclick="create_note()" type="submit">Create Note</button>
+				<button class="button" id="clear-note-button" onclick="clear_notes(1)" type="submit">Clear Note</button>
+				<button class="button" id="clear-all-notes-button" onclick="clear_notes()" type="submit">Clear All Notes</button>
+			</div>
+		</div>
+		<div id="notes-container"></div>
+	</div>
+	<footer>
+		<div class="footer-logo">
+			<div id="footer-logo-text"><a href="#">Notepad_App</a></div>
+			<a href="#"><img src="../notepad-image_dark.png" alt="logo-image" class="footer-logo-image"></a>
+		</div>
+		<div class="links">
+			<a href="About-Us">About Us</a>
+			<a href="https://github.com/JatinKumarKushwaha/notepad_app">View source on github</a>
+		</div>
+		<section class="feedback">
+			Like/Don't like what you see.
+			Consider leaving some feedback.
+			<textarea placeholder="Feedback" name="feedback" id="feedback-textbox" cols="30" rows="10"></textarea>
+			<button class="button" id="submit-feedback">Submit</button>
+		</section>
+		<div class="liesence-text">&#9400; Copyright 2022 <a href="https://github.com/JatinKumarKushwaha/notepad_app">Notepad_App </a></div>
+	</footer>
+</body>
+<script src="src/script.js"></script>
+</html>
