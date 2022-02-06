@@ -1,43 +1,45 @@
 .navg{
-  display: flex;
-  justify-content: space-between; 
-  height: 3.125rem;
-  overflow: hidden;
-  font-size: 0.9357rem;
-  letter-spacing: 0.25rem;
-  color: #03e9f4;
-  background: #333;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    justify-content: space-between;
+    padding-right: 6.25rem;
 }
 
-.navg .f-nav a{
-  position: relative;
-  left: 50%;
-  top: 0.957rem;
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
+.logo-image {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    width: 3.75rem;
+    padding-left: 0.625rem;
 }
 
-.navg .s-nav a{
-  position: relative;
-  left: -10%;
-  top: 0.9375rem;
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
+.f-nav {
+    display: flex;
+    align-items: center;
+    font-size: 1.0625rem;
 }
+
+.s-nav{
+    display: flex;
+    align-items: center;
+    font-size: 1.0625rem;
+    /*justify-content: space-between;*/
+}
+
+.navg a{
+    text-decoration: none;
+    padding-left: 0.125rem;
+    color: aliceblue;
+    padding-right: 0.8333rem;
+}
+
 .navg a:hover{
-  background: #04AA6D;
-  color: white;
+    color: rgb(170, 59, 59);
 }
 
 .navg a:active{
-  background: #04AA6D;
-  color: white;
+    color: aliceblue;
+    background: blue;
 }
-
-.logo-image{
-  padding: 2rem;
-  width: 3.125rem;
-  height: 3.125rem;
-} 
