@@ -1,7 +1,4 @@
-@import url(../../style.css);
-@import url(../../footer.css);
-@import url(../../nav.css);
-@import url(../../button.css);
+@import url(../../src/style.css);
 
 #notepad-container {
 	display: flex;
