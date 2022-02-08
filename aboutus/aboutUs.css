@@ -1,17 +1,16 @@
 body{
-    font-family: 'Open Sans',sans-serif;
-    background-color:white;   
-    box-sizing: border-box;
-    
+  font-family: 'Open Sans',sans-serif;
+  background-color:white;    
 }
+
 .aboutUs{
-    display: flex;
-    flex-wrap: wrap;
-    color: rgb(7, 2, 2);
-    font-size: 60px;
-    margin-left:550px;
-    margin-top: 20px;
-    text-decoration: black  underline;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(7, 2, 2);
+  font-size: 60px;
+  margin-left:550px;
+  margin-top: 20px;
+  text-decoration: black  underline;
 }
 
 .content{
@@ -21,18 +20,19 @@ body{
 }
 
 .one{
-    display: flex;
-    padding-bottom: 50px;
-}
-.two{
-    display: flex;
-    padding-bottom: 50px;
-}
-.three{
-    display: flex;
-    padding-bottom: 50px;
+  display: flex;
+  padding-bottom: 50px;
 }
 
+.two{
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.three{
+  display: flex;
+  padding-bottom: 50px;
+}
 
 .image-and-name {
   display: flex;
@@ -41,56 +41,59 @@ body{
 }
 
 .pic{
-    width: 250px;
-    height: 250px;    
-    margin-left: 200px;    
-    border-radius: 200px;                                                              
+  width: 250px;
+  height: 250px;    
+  margin-left: 200px;    
+  border-radius: 200px;                                                              
 }
 .picTwo{
-    width: 250px;
-    height: 250px;   
-    border-radius: 200px;                                                                  
+  width: 250px;
+  height: 250px;   
+  border-radius: 200px;                                                                  
 }
 
 .name {
   padding-left: 200px;
   font-size: 30px;
 }
+
 .nameChinmay{
   font-size: 30px;
 }
 
 .descriptionOne {
-    border: 5px solid black;
-    width: 800px; 
-    padding-left:20px ;
-    border-radius: 10px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  border: 5px solid black;
+  width: 800px; 
+  padding-left:20px ;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
+
 .descriptionTwo {
-    border: 5px solid black;
-    width: 800px; 
-    padding-left:20px ;
-    margin-left: 200px;
-    border-radius: 10px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  border: 5px solid black;
+  width: 800px; 
+  padding-left:20px ;
+  margin-left: 200px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
+
 .descriptionThree  {
-    border: 5px solid black;
-    width: 800px; 
-    padding-left:20px ;
-    border-radius: 10px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
+  border: 5px solid black;
+  width: 800px; 
+  padding-left:20px ;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
 }
 
   
-  /* Add a hover effect if you want */
-  .logo:hover {
-    opacity: 0.7;
-  }
+/* Add a hover effect if you want */
+.logo:hover {
+  opacity: 0.7;
+}
 
-  .logo{
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-  }
+.logo{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
