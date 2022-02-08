@@ -4,6 +4,7 @@ main {
 	background: #ffffff;
 	align-items: center;
 	flex-wrap: wrap;
+	overflow: hidden;
 }
 
 #details {
@@ -20,7 +21,7 @@ main {
 
 #log-in-main, #sign-in-main {
 	width: 18rem;
-	padding: 0.86rem;
+	padding: 0.82rem;
 	margin: 1rem;
 }
 
@@ -33,10 +34,9 @@ main {
 }
 
 .image-wrapper {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	padding-right:0;
-	border: #0ff0f0;
-	width: 0.5rem;
-	height: 2rem;
+	width: 18rem;
+}
+
+@media(max-width:780px) {
+	
 }
