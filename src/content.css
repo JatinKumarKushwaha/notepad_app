@@ -3,17 +3,18 @@ main {
 	min-height: 4rem;
 	background: #ffffff;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 #details {
-	padding: 2rem;
+	padding-right: 1rem;
 	width: 60rem;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 #intro {
-	min-width: 60rem;
+	width: 56rem;
 	margin: 2rem;
 }
 
