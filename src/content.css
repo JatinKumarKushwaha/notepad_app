@@ -14,12 +14,12 @@ main {
 }
 
 #intro {
-	width: 56rem;
+	width: 48rem;
 	margin: 2rem;
 }
 
 #log-in-main, #sign-in-main {
-	width: 20rem;
+	width: 18rem;
 	padding: 0.86rem;
 	margin: 1rem;
 }
