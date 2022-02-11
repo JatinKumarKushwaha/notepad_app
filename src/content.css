@@ -9,14 +9,14 @@ main {
 
 #details {
 	padding-right: 1rem;
-	width: 60rem;
+	max-width: 60rem;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 #intro {
 	width: 48rem;
-	margin: 2rem;
+	margin: 1rem;
 }
 
 #log-in-main, #sign-in-main {
@@ -35,8 +35,4 @@ main {
 
 .image-wrapper {
 	width: 18rem;
-}
-
-@media(max-width:780px) {
-	
 }
