@@ -4,7 +4,7 @@ function create_note() {
 		console.log("No note created as the string is empty");
 		return;
 	}
-	console.log("Created note with text: ",text);
+	console.log("Created note with text: ", text);
 	const text_node = document.createTextNode(text);
 	const note = document.createElement("div");
 

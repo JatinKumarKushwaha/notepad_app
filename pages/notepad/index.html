@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,30 @@
 	<title>Notepad_App</title>
 	<link rel="stylesheet" href="src/notes_app.css">
 </head>
+
 <body>
 	<script>0</script>
 	<nav class="navg">
-		<div><img src="../src/notepad-image_dark.png" alt="notepad-logo" class="logo-image"></div>
+		<div><img src="/images/notepad-image_dark.png" alt="notepad-logo" class="logo-image"></div>
 		<div class="f-nav">
-			<a href="../index.html">Home</a> 
-			<a href="../aboutus/aboutUs.html">About-Us</a> 
-			<a href="../notepad/index.html">Create-Notes</a> 
+			<a href="/index.html">Home</a>
+			<a href="/pages/aboutus/aboutUs.html">About-Us</a>
+			<a href="/pages/notepad/index.html">Create-Notes</a>
 		</div>
 		<div class="s-nav">
-			<a href="../login/login.html">Login</a> 
-			<a href="../sign-up/index.html">Sign up</a>
+			<a href="/pages/login/login.html">Login</a>
+			<a href="/pages/sign-up/index.html">Sign up</a>
 		</div>
 	</nav>
 	<div id="notepad-container">
 		<div id="input-box">
-			<textarea placeholder="Type some text here" name="notes-input" id="text-box"></textarea>
+			<textarea placeholder="Type your notes here" name="notes-input" id="text-box"></textarea>
 			<div class="button-container">
-				<button class="button" id="create-note-button" onclick="create_note()" type="submit">Create Note</button>
+				<button class="button" id="create-note-button" onclick="create_note()" type="submit">Create
+					Note</button>
 				<button class="button" id="clear-note-button" onclick="clear_notes(1)" type="submit">Clear Note</button>
-				<button class="button" id="clear-all-notes-button" onclick="clear_notes()" type="submit">Clear All Notes</button>
+				<button class="button" id="clear-all-notes-button" onclick="clear_notes()" type="submit">Clear All
+					Notes</button>
 			</div>
 		</div>
 		<div id="notes-container"></div>
@@ -35,10 +39,11 @@
 	<footer>
 		<div class="footer-logo">
 			<div id="footer-logo-text"><a href="https://github.com/JatinKumarKushwaha/notepad_app">Notepad_App</a></div>
-			<a href="https://github.com/JatinKumarKushwaha/notepad_app"><img src="../src/notepad-image_dark.png" alt="logo-image" class="footer-logo-image"></a>
+			<a href="https://github.com/JatinKumarKushwaha/notepad_app"><img src="/images/notepad-image_dark.png"
+					alt="logo-image" class="footer-logo-image"></a>
 		</div>
 		<div class="links">
-			<a href="../aboutus/aboutUs.html">About Us</a>
+			<a href="/pages/aboutus/aboutUs.html">About Us</a>
 			<a href="https://github.com/JatinKumarKushwaha/notepad_app">View source on github</a>
 		</div>
 		<section class="feedback">
@@ -47,8 +52,10 @@
 			<textarea placeholder="Feedback" name="feedback" id="feedback-textbox" cols="30" rows="10"></textarea>
 			<button class="button" id="submit-feedback">Submit</button>
 		</section>
-		<div class="liesence-text">&#9400; Copyright 2022 <a href="https://github.com/JatinKumarKushwaha/notepad_app">Notepad_App </a></div>
+		<div class="liesence-text">&#9400; Copyright 2022 <a
+				href="https://github.com/JatinKumarKushwaha/notepad_app">Notepad_App </a></div>
 	</footer>
 </body>
 <script src="src/script.js"></script>
+
 </html>

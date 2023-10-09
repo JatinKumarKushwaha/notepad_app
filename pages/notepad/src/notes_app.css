@@ -1,4 +1,4 @@
-@import url(../../src/style.css);
+@import url(/css/style.css);
 
 #notepad-container {
 	display: flex;
@@ -8,7 +8,7 @@
 	overflow: hidden;
 }
 
-#notepad-container > div {
+#notepad-container>div {
 	height: 46rem;
 	width: 46rem;
 	margin: 2rem;
@@ -29,8 +29,9 @@
 	resize: none;
 }
 
-#text-box:hover, #text-box:active {
-	box-shadow:20px 20px 10px grey;
+#text-box:hover,
+#text-box:active {
+	box-shadow: 20px 20px 10px grey;
 	border: 2px solid #470f0b;
 	outline: none;
 }
@@ -39,7 +40,7 @@
 	margin-left: 5.4rem;
 }
 
-.button-container > button {
+.button-container>button {
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
 }

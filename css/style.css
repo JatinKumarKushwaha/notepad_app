@@ -1,0 +1,35 @@
+@import url(footer.css);
+@import url(nav.css);
+@import url(content.css);
+@import url(button.css);
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--text: #060404;
+		--background: #f6f3f3;
+		--primary: #9e0a0a;
+		--secondary: #111827;
+		--accent: #836363;
+		font-size: 16px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text: #fbf9f9;
+		--background: #0c0909;
+		--primary: #f56161;
+		--secondary: #d8dfee;
+		--accent: #9c7c7c;
+		font-size: 16px;
+	}
+}
+
+
+
+body {
+	background: var(--background);
+	font-family: sans;
+	margin: 0;
+	padding: 0;
+}
